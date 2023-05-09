@@ -105,23 +105,27 @@ body {
                     transform: scale(1.2) translateY(-5px);
                 }
             }
+            .profile-card__social a.email {
+                background: linear-gradient(45deg, #ff4b4b, #ff0000, #bd0000, #ff4343);
+                box-shadow: 0 4px 30px rgba(60, 169, 43, 0.5);
+            }
             .profile-card__social a.spotify {
                 background: linear-gradient(45deg, #67d152, #097912, #20fa10);
                 box-shadow: 0 4px 30px rgba(60, 169, 43, 0.5);
             }
-            &.twitter {
+            .profile-card__social a.twitter {
                 background: linear-gradient(45deg, #1da1f2, #0078d7);
                 box-shadow: 0 4px 30px rgba(19, 127, 212, 0.7);
             }
-            &.instagram {
+            .profile-card__social a.instagram {
                 background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
                 box-shadow: 0 4px 30px rgba(120, 64, 190, 0.6);
             }
-            &.linkedin {
-                background: linear-gradient(45deg, #ff4b4b, #ff0000, #bd0000, #ff4343);
+            .profile-card__social a.linkedin {
+                background: linear-gradient(45deg, #4bf6ff, #00a6ff, #0075bd, #4372ff);
                 box-shadow: 0 4px 30px rgba(43, 98, 169, 0.4);
             }
-            &.github {
+            .profile-card__social a.github {
                 background: linear-gradient(45deg, #333333, #2e3235, #626b73);
                 box-shadow: 0 4px 30px rgba(63, 65, 67, 0.6);
             }
