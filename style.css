@@ -152,6 +152,11 @@ body::before {
     }
 }
 
+.profile-card__social a.email {
+    background: linear-gradient(45deg, #67d152, #097912, #20fa10);
+    box-shadow: 0 4px 30px rgba(60, 169, 43, 0.5);
+}
+
 .profile-card__social a.spotify {
     background: linear-gradient(45deg, #67d152, #097912, #20fa10);
     box-shadow: 0 4px 30px rgba(60, 169, 43, 0.5);
@@ -167,8 +172,8 @@ body::before {
     box-shadow: 0 4px 30px rgba(120, 64, 190, 0.6);
 }
 
-.profile-card__social a.youtube {
-    background: linear-gradient(45deg, #ff4b4b, #ff0000, #bd0000, #ff4343);
+.profile-card__social a.linkedin {
+    background: linear-gradient(45deg, #4bf6ff, #00a6ff, #0075bd, #4372ff);
     box-shadow: 0 4px 30px rgba(43, 98, 169, 0.4);
 }
 
