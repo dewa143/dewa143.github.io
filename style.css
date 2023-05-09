@@ -153,7 +153,7 @@ body::before {
 }
 
 .profile-card__social a.email {
-    background: linear-gradient(45deg, #67d152, #097912, #20fa10);
+    background: linear-gradient(45deg, #ff4b4b, #ff0000, #bd0000, #ff4343);
     box-shadow: 0 4px 30px rgba(60, 169, 43, 0.5);
 }
 
